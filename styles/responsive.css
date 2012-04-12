@@ -4,3 +4,4 @@ body { font-size:62.5%; margin:0; }
 p { font-size:1.6em; margin:1.3em; }
 div { max-width:160.0em; }
 div img { width:100%; }
+ol li { font-size:1.6em; font-family:serif; }
