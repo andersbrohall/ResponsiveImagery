@@ -12,8 +12,7 @@
 		<link rel="stylesheet" href="/styles/responsive.css" />
 	</head>
 	<body>
-		<p>A simple demo of Responsive Imagery using ImageGen (<a href="http://www.percipientstudios.com/">Percipient Studios</a>)<br/>
-			The code and further documentation is available on <a href="https://github.com/andersbrohall/ResponsiveImagery">github</a>
+		<p>A simple demo of Responsive Imagery using ImageGen (<a href="http://www.percipientstudios.com/">Percipient Studios</a>)</p>
 		
 		<p>Calling the page will retrive a session-cookie with the width of images. <br/>
 			If there isn't any cookie, a default width will be used to render images. </p>
@@ -41,6 +40,11 @@
 		<p>We have used it with images delivered via a remote PHP site.<br/>
 			You can of course use the platform of your choise considered that the same two prerequisites<br/>
 			are filled. The only important thing is to be able to change a numeric width in the src of the images. </p>
+		
+		<p>
+			The code and further documentation is available on <a href="https://github.com/andersbrohall/ResponsiveImagery">github</a>
+		</p>
+
 
 		<p>imageWidth in cookie: <%= imageWidth %> (default = 500)<br/>
 			imageWidth in script: <span class="imageWidth"></span><br/>
