@@ -1,4 +1,4 @@
-A simple demo of Responsive Imagery using ImageGen from Percipient Studios (http://www.percipientstudios.com/imagegen/overview.aspx
+A simple demo of Responsive Imagery using ImageGen from Percipient Studios
 
 Calling the page will retrive a session-cookie with the width of images. If there isn't any cookie, a default width will be used to render images. 
 
