@@ -1,0 +1,6 @@
+
+*.obj
+obj/
+*.pdb
+Properties/
+images/Cached

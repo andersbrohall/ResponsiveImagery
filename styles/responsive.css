@@ -1,0 +1,5 @@
+﻿
+body { font-size:62.5%; margin:0; }
+body p { font-size:1.6em; margin:1em; }
+body > div { max-width:160.0em; }
+body > div img { width:100%; }
