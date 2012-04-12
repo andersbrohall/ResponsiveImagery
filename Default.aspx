@@ -12,7 +12,8 @@
 		<link rel="stylesheet" href="/styles/responsive.css" />
 	</head>
 	<body>
-		<p>A simple demo of Responsive Imagery using ImageGen (<a href="http://www.percipientstudios.com/">Percipient Studios</a>)</p>
+		<p>A simple demo of Responsive Imagery using ImageGen (<a href="http://www.percipientstudios.com/">Percipient Studios</a>)<br/>
+			The code and further documentation is available on <a href="https://github.com/andersbrohall/ResponsiveImagery">github</a>
 		<p>imageWidth in cookie: <%= imageWidth %> (default = 500)<br/>
 			imageWidth in script: <span class="imageWidth"></span><br/>
 			contentWidth in markup: <span class="contentWidth"></span></p>
