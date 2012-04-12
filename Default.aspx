@@ -24,11 +24,12 @@
 			If the width is changed, the cookie will be updated.</p>
 		<p>Also window.onresize is handeled, calling the resize function again. And again.<br/>
 			However, all current downloads are stopped and a timeout is set so that we don't spam the<br/>
-			server more than necessary</p>
-		<p>Meaning:
-			<ol><li>On the first request a 'lowsource' image will be loaded before the actual size.</li>
-  				<li>On recurring requests the correct image will be loaded while rendering. </li>
-			</ol></p>
+			server more than necessary.</p>
+		
+		<ol><li>On the first request a 'lowsource-ish' image will be loaded before the actual size.</li>
+  			<li>On recurring requests the correct image will be loaded while rendering. </li>
+		</ol>
+
 		<p>Perk: The solution takes window.devicePixelRatio in cosideration. <br/>
 			Thus we have support for Retina and other displays with high resolution.</p>
 		<p>In the future we will make best guesses about the visitors window size, given their User Agent. <br/>
