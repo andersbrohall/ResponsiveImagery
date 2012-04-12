@@ -38,8 +38,8 @@
 			Also we use ImageGen which is a .NET Web Handler. </p>
 
 		<p>We have used it with images delivered via a remote PHP site.<br/>
-			You can of course use the platform of your choise considered that the same two prerequisites<br/>are filled.<br/>
-			The only important thing is to be able to change a numeric width in the src of the images. </p>
+			You can of course use the platform of your choise considered that the same two prerequisites<br/>
+			are filled. The only important thing is to be able to change a numeric width in the src of the images. </p>
 
 		<p>imageWidth in cookie: <%= imageWidth %> (default = 500)<br/>
 			imageWidth in script: <span class="imageWidth"></span><br/>
