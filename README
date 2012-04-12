@@ -1,0 +1,33 @@
+A simple demo of Responsive Imagery using ImageGen from Percipient Studios (http://www.percipientstudios.com/imagegen/overview.aspx
+
+Calling the page will retrive a session-cookie with the width of images. 
+If there isn't any cookie, a default width will be used to render images. 
+
+After document.ready a script will replace all images with the selector '.full'.
+The image width will depend on window.innerWidth and the max-width of the image container. 
+The visitor will still have a fully functional site and user experience since the original images are streched to the new width while waiting for the new images. 
+
+If the width is changed, the cookie will be updated.
+
+Also window.onresize is handeled, calling the resize function again. And again.  And again.
+However, all current downloads are stopped and a timeout is set so that we don't spam the server more than necessary
+
+Meaning:
+  1) On the first request a 'lowsource' image will be loaded before the actual size.
+  2) On recurring requests the correct image will be loaded while rendering. 
+
+Perk: The solution takes window.devicePixelRatio in cosideration. 
+Thus we have support for Retina and other displays with high resolution.
+
+In the future we will make best guesses about the visitors window size, given their User Agent.
+With that we can have a even nicer experience while browsing with javascript disabled.
+
+This example is built with ASP.NET since we need to read the cookie server-side. 
+Also we use ImageGen which is a .NET Web Handler. 
+
+We have used it with images delivered via a remote PHP site.
+You can of course use the platform of your choise considered that the same two prerequisites are filled. 
+The only important thing is to be able to change a numeric width in the src of the images. 
+
+
+A example can be found at http://responsiveimagery.example.obviuse.se/
