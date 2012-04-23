@@ -94,7 +94,7 @@
 		clearTimeout(view.responsive.resizeTimeout);
 		view.responsive.resizeTimeout = setTimeout(function () {
 			view.responsive.resizeImages();
-		}, 100);
+		}, 250); // Might need adjustment if loading of images fail in Webkit.
 	};
 	
 	$(document).ready(function () {
